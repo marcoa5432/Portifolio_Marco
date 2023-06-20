@@ -320,6 +320,7 @@ a:hover {
     border-radius: 5px;
     background-color: white;
     list-style: none;
+    padding: 10px;
 }
 
 .container-sobre {
@@ -336,7 +337,6 @@ a:hover {
     font-size: 50PX;
     text-align: center;
     margin-top: 65px;
-
 }
 
 
@@ -347,6 +347,8 @@ a:hover {
     margin: auto;
     width: 90%;
     
+    
+    
 }
 
 .experiencia {
@@ -356,4 +358,9 @@ a:hover {
     border-radius: 5px;
     background-color: white;
     list-style: none;
+    padding: 10px 10px;
+} 
+
+a {
+    text-decoration: none;
 }
