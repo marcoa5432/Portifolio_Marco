@@ -191,8 +191,8 @@ a:hover {
 }
 
 .card {
-    width: 300px;
-    height: 300px;
+    width: 345px;
+    height: 345px;
     border-radius: 100%;
     margin: 3rem 0 0 0;
     display: flex;
@@ -277,6 +277,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     color: #1e1e2a;
+    padding: 30px;
+    font-size: 20px;
 }
 
 .image-caderno {
@@ -298,7 +300,7 @@ a:hover {
     color: #FFF;
     font-size: 50PX;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 150px;
 }
 
 .card-projetos {
@@ -307,6 +309,7 @@ a:hover {
     align-items: center;
     margin: auto;
     width: 90%;
+    text-align: center;
     
      
    
@@ -321,6 +324,7 @@ a:hover {
     background-color: white;
     list-style: none;
     padding: 10px;
+    
 }
 
 .container-sobre {
@@ -336,7 +340,7 @@ a:hover {
     color: #FFF;
     font-size: 50PX;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 150px;
 }
 
 
@@ -359,8 +363,19 @@ a:hover {
     background-color: white;
     list-style: none;
     padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
 } 
 
 a {
     text-decoration: none;
+}
+
+.img-card {
+
+    margin-top: 20px;
+
 }
