@@ -269,25 +269,7 @@ a:hover {
     font-size: 14px;
 }
 
-.footer {
-    width: 100%;
-    height: 100%;
-    background-color: #3a3a8b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #1e1e2a;
-    padding: 30px;
-    font-size: 20px;
-}
-
-.image-caderno {
-    margin: 0%;
-    padding: 50px 0px;
-    width: 130rem;
-    height: 55rem;
-}
-
+ 
 .container-projetos {
     display: flex;
     flex-direction: column;
@@ -300,7 +282,7 @@ a:hover {
     color: #FFF;
     font-size: 50PX;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .card-projetos {
@@ -317,13 +299,21 @@ a:hover {
 }
 
 .projetos {
-    height: 400px;
+    height: 450px;
     width: 400px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 5px;
     background-color: white;
     list-style: none;
     padding: 10px;
+    
+}
+
+.projetos a {
+    display: flex;
+    justify-content: center;
+    
+    
     
 }
 
@@ -340,7 +330,7 @@ a:hover {
     color: #FFF;
     font-size: 50PX;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 
@@ -379,3 +369,36 @@ a {
     margin-top: 20px;
 
 }
+
+.botao-retorno {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.botao-retorno a {
+    text-decoration: none;
+    color: rgb(126, 121, 121);
+    padding: 1rem 4rem;
+    border: 1px solid rgb(126, 121, 121);
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    margin: 3rem 3rem;
+
+
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #3a3a8b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e1e2a;
+    padding: 30px;
+    font-size: 20px;
+}
+ 
