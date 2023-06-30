@@ -412,7 +412,7 @@ a {
         margin-top: -5%;
    } 
    .social-midia {
-       margin-top: 11.5rem;
+       margin-top: 11rem;
    }
    .card-container{
        flex-direction: column;
@@ -440,20 +440,21 @@ a {
 
    }
    .projetos {
-       width: 200px;
+       width: 270px;
        height: 360px;
    }
    .projetos > div > img {
-       width: 200px !important;
+       width: 220px !important;
    }
    .card-projetos {
-    align-items: flex-start;
+    align-items: center;
     }
 
     .container-projetos h2 {
         font-size: 20px;
-        width: 30%;
+        width: 100%;
         text-align: center;
+        margin-top: 10px;
     }
 
     .botao-retorno {
@@ -462,6 +463,38 @@ a {
     }
 
     .botao-retorno a {
-        padding: .5rem 2rem;
+        padding: 10px 30px;
+        margin: 3rem 3rem;
+    }
+
+    .container-projetos {
+        height: 200vh;
+    }
+
+    .container-sobre {
+        display: flex;
+        height: 257vh;
+    }
+
+    .container-sobre h2 {
+        color: #FFF;
+        font-size: 35PX;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+
+    .card-experiencia {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: -18;
+    } 
+    
+    .experiencia {
+        display: flex;
+        width: 364px;
+        height: 427px;
+        margin: 20px;
     }
 }
