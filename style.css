@@ -448,6 +448,7 @@ a {
    }
    .card-projetos {
     align-items: center;
+    margin-left: -16;
     }
 
     .container-projetos h2 {
@@ -468,12 +469,12 @@ a {
     }
 
     .container-projetos {
-        height: 200vh;
+        height: 202vh;
     }
 
     .container-sobre {
         display: flex;
-        height: 257vh;
+        height: 262vh;
     }
 
     .container-sobre h2 {
@@ -487,14 +488,13 @@ a {
     .card-experiencia {
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
         margin-left: -18;
     } 
     
     .experiencia {
         display: flex;
-        width: 364px;
-        height: 427px;
+        width: 315px;
+        height: 445px;
         margin: 20px;
     }
 }
