@@ -432,26 +432,23 @@ a {
        padding: 0;
        padding-bottom: 20px;
    }
-   .card-projetos{
+   .card-projetos {
        flex-direction: column;
+       padding: 10px;
    }
    .projetos  {
     margin-bottom: 20px;
 
    }
    .projetos {
-       width: 270px;
-       height: 360px;
+        width: 270px;
+        height: 360px;
    }
    .projetos > div > img {
-       width: 220px !important;
+        width: 220px !important;
    }
-   .card-projetos {
-    align-items: center;
-    margin-left: -16;
-    }
-
-    .container-projetos h2 {
+   
+   .container-projetos h2 {
         font-size: 20px;
         width: 100%;
         text-align: center;
@@ -488,7 +485,7 @@ a {
     .card-experiencia {
         display: flex;
         flex-direction: column;
-        margin-left: -18;
+        padding: 10px;
     } 
     
     .experiencia {
